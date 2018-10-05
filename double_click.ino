@@ -1,10 +1,10 @@
-#include <Button.h>
+#include "Button.h"
 
-#define TIME_DOUBLE_CLICK 500
-#define BUTTON	8
+#define TIME_DOUBLE_CLICK 700
+#define BUTTON	A0
 #define LED		12
 
-Button button(BUTTON, true, false, 10);
+Button button(BUTTON, true, true, 1);
 bool ledStt = false;
 void setup()
 {
@@ -21,9 +21,12 @@ void loop()
 	button.read();
 	press_pre = press;
 	press = button.isPressed();
+	if (press) {
+		Serial.println("press");
+	}
 	if (!press_pre && press) { //press
 		unsigned long duration = millis() - t_press;
-		Serial.println("press " + String(duration));
+		Serial.println("duration " + String(duration));
 		t_press = millis();
 		if (duration < TIME_DOUBLE_CLICK) {
 			ledStt = !ledStt;

@@ -1,6 +1,7 @@
-C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\double_click.cpp.o: \
- C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\double_click.cpp \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/arduino.h \
+C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\Button.cpp.o: \
+ C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\Button.cpp \
+ C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\Button.h \
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/binary.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WCharacter.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/WString.h \
@@ -10,6 +11,4 @@ C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\double_click
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Printable.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/USBAPI.h \
  C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\standard/pins_arduino.h \
- C:\Users\tacke\AppData\Local\Temp\VMBuilds\double_click\uno\Release\Button.h \
- C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\cores\arduino/Arduino.h
+ C:\Program\ Files\ (x86)\Arduino\hardware\arduino\avr\variants\standard/pins_arduino.h
